@@ -86,3 +86,7 @@ Email/SMS confirmation for users
 Online payment or insurance handling
 
 Doctor profiles & availability calendar
+
+>prompt: From the above, Generate the wireframes of what the entire website with its pages will look like.
+
+![wireframes](/clinic_mockup.png "wireframes")
