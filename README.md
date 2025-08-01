@@ -90,3 +90,44 @@ Doctor profiles & availability calendar
 >prompt: From the above, Generate the wireframes of what the entire website with its pages will look like.
 
 ![wireframes](/clinic_mockup.png "wireframes")
+
+## Step 2: Design and UI Copy
+ I've got a rough idea of the layout. Time to turn these ugly wireframes into a real design. For this, I use AI-powered UI generation tools (you can find a few out there, like https://stitch.withgoogle.com, or even use v0.dev to get ideas).
+
+I just uploaded the wireframes from ChatGPT and told it what I wanted.
+
+Prompt:
+
+>Turn these wireframes into a clean, modern design for a car rental website. Make it look trustworth
+## Step 3: Writing the Boilerplate Code
+
+Use cursor
+Prompt:
+
+You are a senior React developer. Convert the following HTML and Tailwind CSS code into a fully functional React application.
+
+Requirements:
+
+Use Vite as the build tool.
+
+The project must be in TypeScript.
+
+Implement the UI components using shadcn/ui where appropriate (for example, Buttons, Cards).
+
+Use lucide-react for icons
+
+Structure the code into logical components (for example, Navbar, CarCard, Footer).
+
+Create a root App.tsx file that assembles these components
+
+## Step 4: Making the Code Actually Good
+Look, I know this is far from done. The AI gave me a great start, but it's not a finished product. I still have to plug in a CMS or a database, set up the real logic – you get the idea. This is where the real development starts, and AI is still my co-pilot.
+
+What the AI Got Right (and Wrong)
+The AI did a surprisingly good job on the first pass. It correctly scaffolded the Vite + React + TS project, created a components folder, and even used shadcn/ui components where I asked. This saved me at least 30-45 minutes of tedious setup.
+
+But it wasn't perfect. For example, the initial data for the cars was hardcoded directly inside the component. That's a huge no-no for a real app that needs to scale or pull from a database. Also, the components weren't as reusable as I'd like.
+
+This is where your job as a developer comes in – to review, refactor, and architect properly.
+
+Source: https://www.freecodecamp.org/news/how-to-use-ai-effectively-in-your-dev-projects/#heading-step-1-planning-and-research-the-brainstorm
